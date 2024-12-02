@@ -14,7 +14,7 @@ dotenv.config();
 dotenv.config({ path: '../var.env' }); 
 
 
-const bodyParser = require('body-parser');
+import bodyParser from "body-parser";
 const PORT = process.env.PORT;
 const __dirname = path.resolve();
 
