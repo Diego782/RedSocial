@@ -11,7 +11,7 @@ import authRoutes from "./routes/auth.route.js";
 import messageRoutes from "./routes/message.route.js";
 import { app, server } from "./lib/socket.js";
 dotenv.config();
-dotenv.config({ path: './var.env' }); 
+dotenv.config({ path: '../var.env' }); 
 
 
 
